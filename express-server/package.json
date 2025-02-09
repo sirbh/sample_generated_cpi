@@ -1,0 +1,16 @@
+{
+  "name": "product-service-api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@prisma/client": "^3.0.0",
+    "express": "^4.17.1",
+    "product-service-api": "file:"
+  },
+  "devDependencies": {
+    "prisma": "^3.0.0"
+  }
+}
